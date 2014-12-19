@@ -1,0 +1,298 @@
+[
+	{
+		"name": "HCMUSSH",
+		"datacenters": {
+			"quantity": 1,
+			"arch": "x86",
+			"os": "Linux",
+			"vmm": "Xen",
+			"time_zone": 10.0,
+			"cost": 3.0,
+			"costPerMem": 0.05,
+			"costPerStorage": 0.001,
+			"costPerBw": 0.0,
+			"hosts": {
+				"quantity": 200,
+				"ram": 2048,
+				"storage": 100000,
+				"bw": 10000,
+				"pes": {
+					"mips": 5000,
+					"quantity": 10
+				}
+			},
+			"vms": {
+				"quantity": 300,
+				"mips": 1,
+				"size": 1000,
+				"ram": 1024,
+				"bw": 10,
+				"pesNumber": 1,
+				"vmm": "Xen"
+			}
+		},
+		"cloudlets": 
+		[
+			{
+				"quantity": 500,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 0.0,
+				"deadline": 101.0
+			},
+			{
+				"quantity": 400,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 100.0,
+				"deadline": 301.5
+			},
+			{
+				"quantity": 300,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 200.0,
+				"deadline": 302.0
+			},
+			{
+				"quantity": 100,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 300.0,
+				"deadline": 403.0
+			},
+			{
+				"quantity": 100,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 400.0,
+				"deadline": 503.0
+			},
+			{
+				"quantity": 1000,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 500.0,
+				"deadline": 705.0
+			},
+			{
+				"quantity": 400,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 600.0,
+				"deadline": 705.0
+			}
+		]
+	},
+	{
+		"name": "HCMUT",
+		"datacenters": {
+			"quantity": 1,
+			"arch": "x86",
+			"os": "Linux",
+			"vmm": "Xen",
+			"time_zone": 10.0,
+			"cost": 3.0,
+			"costPerMem": 0.05,
+			"costPerStorage": 0.001,
+			"costPerBw": 0.0,
+			"hosts": {
+				"quantity": 200,
+				"ram": 2048,
+				"storage": 100000,
+				"bw": 10000,
+				"pes": {
+					"mips": 5000,
+					"quantity": 10
+				}
+			},
+			"vms": {
+				"quantity": 100,
+				"mips": 1,
+				"size": 1000,
+				"ram": 1024,
+				"bw": 10,
+				"pesNumber": 1,
+				"vmm": "Xen"
+			}
+		},
+		"cloudlets":
+		[
+			{
+				"quantity": 100,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 0.0,
+				"deadline": 101.5
+			},
+			{
+				"quantity": 20,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 100.0,
+				"deadline": 202.5
+			},
+			{
+				"quantity": 200,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 200.0,
+				"deadline": 302.5
+			},
+			{
+				"quantity": 180,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 300.0,
+				"deadline": 403.0
+			},
+			{
+				"quantity": 100,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 400.0,
+				"deadline": 503.0
+			},
+			{
+				"quantity": 40,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 500.0,
+				"deadline": 703.0
+			},
+			{
+				"quantity": 200,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 600.0,
+				"deadline": 703.0
+			}
+		]
+	},
+	{
+		"name": "HCMUS",
+		"datacenters": {
+			"quantity": 1,
+			"arch": "x86",
+			"os": "Linux",
+			"vmm": "Xen",
+			"time_zone": 10.0,
+			"cost": 3.0,
+			"costPerMem": 0.05,
+			"costPerStorage": 0.001,
+			"costPerBw": 0.0,
+			"hosts": {
+				"quantity": 500,
+				"ram": 2048,
+				"storage": 100000,
+				"bw": 10000,
+				"pes": {
+					"mips": 5000,
+					"quantity": 10
+				}
+			},
+			"vms": {
+				"quantity": 500,
+				"mips": 1,
+				"size": 1000,
+				"ram": 1024,
+				"bw": 10,
+				"pesNumber": 1,
+				"vmm": "Xen"
+			}
+		},
+		"cloudlets": [
+			{
+				"quantity": 500,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 0.0,
+				"deadline": 101.5
+			},
+			{
+				"quantity": 200,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 100.0,
+				"deadline": 201.5
+			},
+			{
+				"quantity": 1000,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 200.0,
+				"deadline": 302.5
+			},
+			{
+				"quantity": 570,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 300.0,
+				"deadline": 403.0
+			},
+			{
+				"quantity": 550,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 400.0,
+				"deadline": 503.0
+			},
+			{
+				"quantity": 50,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 500.0,
+				"deadline": 603.0
+			},
+			{
+				"quantity": 800,
+				"long": 100,
+				"fileSize": 300,
+				"outputSize": 300,
+				"pesNumber": 1,
+				"userRequestTime": 600.0,
+				"deadline": 703.0
+			}
+		]
+	}
+]
